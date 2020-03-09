@@ -2,15 +2,15 @@
 ## Snapchat Takeout (GDPR) Memories Downloader
 ### This Python3 application downloads your media files ( known as memories) from Snapchat servers to your local disk.
 
-When [requesting your data from Snapchat](https://accounts.snapchat.com/accounts/downloadmydata) they sadly only include a .json file which contains a seperate download link for each memory file.
-This application parses the .json file and does it's best to download the files to local disk.
+When [requesting your data from Snapchat](https://accounts.snapchat.com/accounts/downloadmydata) they sadly only include a `.json` file which contains a seperate download link for each memory file.
+This application parses the `.json` file and does it's best to download the files to local disk.
 
 **Iam grateful for any suggestions/tips for improvement. This is my first Python project**
 
 ### Features:
 - File Handling
-  - Apply naming sheme (Default: "Snapchat-YYYY-MM-DD_HHMMSS\[\_1..n\].ext")
-  - Recursive naming of files created with same timestamp (the optional \[\_1..n] part above)
+  - Apply naming sheme (Default: `Snapchat-YYYY-MM-DD_HHMMSS\[\_1..n\].ext`)
+  - Recursive naming of files created with same timestamp (the optional `\[\_1..n]` part above)
   - Existing Files are skipped
 - Error Handling
   - Log failed Downloads
