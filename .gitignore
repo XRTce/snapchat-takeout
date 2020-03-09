@@ -1,3 +1,9 @@
+# Personal data
+media/
+downloaded.txt
+errors.txt
+*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -50,6 +56,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+.vscode/
 
 # Translations
 *.mo
