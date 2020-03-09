@@ -1,9 +1,11 @@
 # snapchat-takeout
 ## Snapchat Takeout (GDPR) Memories Downloader
-This Python application downloads memories from Snapchat servers to local disk
+### This Python3 application downloads your media files ( known as memories) from Snapchat servers to your local disk.
 
 When [requesting your data from Snapchat](https://accounts.snapchat.com/accounts/downloadmydata) they sadly only include a .json file which contains a seperate download link for each memory file.
 This application parses the .json file and does it's best to download the files to local disk.
+
+**Iam grateful for any suggestions/tips for improvement. This is my first Python project**
 
 ### Features:
 - File Handling
@@ -18,4 +20,25 @@ This application parses the .json file and does it's best to download the files 
 - maybe i forgot some, it's been a long day ¯\\\_(ツ)\_/¯
 
 ### Disclaimer:
-I promise that i did my best not to do any bullshit but Iam just a human as you are. (To make things worse: Iam Student atm) Well, you guessed it: we make mistakes so please __Don't trust this application in any means. I will not take any damage coaused by this application on me__
+I promise: i did my best not making any mistakes but Iam just a human as you are. (worse: iam a Student) Well, you guessed it: we make mistakes so please **Don't trust this application before you read and understood the code, it is commented. I will not take any damage coaused by this application on me**
+
+### Screenshots
+Downloading files:
+---
+![downloading](https://github.com/cmd-k/snapchat-takeout/raw/master/screenshots/downloading.png)
+
+Skipping existing files:
+---
+![skipped](https://github.com/cmd-k/snapchat-takeout/raw/master/screenshots/skipped.png)
+
+Duplicate file handling:
+---
+![duplicate](https://github.com/cmd-k/snapchat-takeout/raw/master/screenshots/duplicate.png)
+
+Download error:
+---
+![error](https://github.com/cmd-k/snapchat-takeout/raw/master/screenshots/error.png)
+
+Stats after finished task:
+---
+![stats](https://github.com/cmd-k/snapchat-takeout/raw/master/screenshots/stats.png)
