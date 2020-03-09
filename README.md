@@ -27,9 +27,9 @@ I promise: i did my best not making any mistakes but Iam just a human as you are
 2. Run `app.py`
 
 You should end up with the following file structure:
-- ./media/Snapchat-xxx <-- Your downloaded files
-- ./errors.txt <-- Failed files including failed download links
-- ./downloaded.txt <-- All successfull downloaded Links
+- `./media/Snapchat-xxx` <-- Your downloaded files
+- `./errors.txt` <-- Failed files including failed download links
+- `./downloaded.txt` <-- All successfull downloaded Links
 
 If the app is stopped during runtime it resumes after the last downloaded file (for this to work dont delete `downloaded.txt`)
 It is possible to change the timezone for appling the file naming sheme, media folder and the file naming sheme inside the code as you should've noticed becuase you read and understood the code ;) 
