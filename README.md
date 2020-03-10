@@ -1,15 +1,15 @@
 # snapchat-takeout
 ## Snapchat Takeout (GDPR) Memories Downloader
-### This Python3 application downloads your media files ( known as memories) from Snapchat servers to your local disk.
+### This Python3 application downloads your media files (known as memories) from Snapchat servers to your local disk.
 
 When [requesting your data from Snapchat](https://accounts.snapchat.com/accounts/downloadmydata) they sadly only include a `.json` file which contains a seperate download link for each memory file.
-This application parses the `.json` file and does it's best to download the files to local disk.
+This application parses the `.json` file, then does it's best to download the files to local disk.
 
 **Iam grateful for any suggestions/tips for improvement. This is my first Python project**
 
 ### Features:
 - File Handling
-  - Apply naming sheme (Default: `Snapchat-YYYY-MM-DD_HHMMSS\[\_1..n\].ext`)
+  - Apply naming sheme (Default: `Snapchat-YYYY-MM-DD_HHMMSS[_1..n].ext`)
   - Recursive naming of files created with same timestamp (the optional `\[\_1..n]` part above)
   - Existing Files are skipped
 - Error Handling
@@ -17,10 +17,10 @@ This application parses the `.json` file and does it's best to download the file
 - Restart download at any time (download progress is logged)
 - Stats after completion
 - Status output while downloading
-- maybe i forgot some, it's been a long day ¯\\\_(ツ)\_/¯
+- Maybe i forgot some, it's been a long day ¯\\\_(ツ)\_/¯
 
 ### Disclaimer:
-I promise: i did my best not making any mistakes but Iam just a human as you are. (worse: iam a Student) Well, you guessed it: we make mistakes so please **Don't trust this application before you read and understood the code, it is commented. I will not take any damage coaused by this application on me**
+I promise: i did my best not making any mistakes but Iam just a human as you are. (worse: iam a Student) Well, you guessed it: we make mistakes so please **Don't trust this application before you read and understood the code, it is commented. I will not take any damage caused by this application on me**
 
 ### Usage
 1. Put your `memories_history.json` file into the project's root folder
