@@ -9,8 +9,8 @@ This application parses the `.json` file, then does it's best to download the fi
 
 ### Features:
 - File Handling
-  - Apply naming sheme (Default: `Snapchat-YYYY-MM-DD_HHMMSS[_1..n].ext`)
-  - Recursive naming of files created with same timestamp (the optional `\[\_1..n]` part above)
+  - Apply naming sheme (Default: `Snapchat-YYYY-MM-DD_HHMMSS[1..n].ext`)
+  - Recursive naming of files created with same timestamp (the optional `[1..n]` part above)
   - Existing Files are skipped
 - Error Handling
   - Log failed Downloads
