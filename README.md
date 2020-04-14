@@ -5,6 +5,8 @@
 When [requesting your data from Snapchat](https://accounts.snapchat.com/accounts/downloadmydata) they sadly only include a `.json` file which contains a seperate download link for each memory file.
 This application parses the `.json` file, then does it's best to download the files to local disk.
 
+## Snapchat is constantly changing their way of letting you download your data. This app is outdated as of now. Please use this one: https://github.com/ToTheMax/Snapchat-All-Memories-Downloader
+
 **Iam grateful for any suggestions/tips for improvement. This is my first Python project**
 
 ### Features:
